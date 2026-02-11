@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>info</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <video autoplay loop muted playsinline id="bg-video">
+        <source src="cr.mp4" type="video/mp4">
+    </video>
+    <audio id="bg-audio" loop>
+        <source src="me.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="click-overlay">
+        <p>Click Anywhere</p>
+    </div>
+
+    <div class="overlay"></div>
+
+    <div class="main-container">
+        <div class="profile-section">
+            <div class="profile-image-container">
+                <img src="Ronaldo 🇵🇹 4k HD Dehşet.jpeg" alt="MERO" class="profile-img">
+            </div>
+            <h1 id="mero-name"></h1>
+            <p id="mero-desc"></p>
+            <div class="sub-info" id="location-container"></div>
+            <div class="social-group" id="social-links"></div>
+        </div>
+    </div>
+
+    <div id="views-container">
+        <i class="fas fa-eye"></i>
+        <span id="view-count"></span>
+    </div>
+
+    <div id="rights-container"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
